@@ -10,7 +10,7 @@ import {
   X
 } from 'lucide-react';
 import { useState } from 'react';
-import '../Styles/Employeelayout.css'
+import '../Styles/EmployeeLayout.css'
 
 function Employeelayout({ children }) {
   const navigate = useNavigate();
