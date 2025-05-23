@@ -1,0 +1,168 @@
+/* Base Container */
+.ALP-apply-leave-container {
+  background-color: white;
+  height: 100vh;
+  padding: 1rem;
+  margin: 1px;
+
+}
+
+/* Titles */
+.ALP-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0.25rem;
+  color: #1f2937;
+}
+
+.ALP-subtitle {
+  color: #6b7280;
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+}
+
+/* Form Structure */
+.ALP-leave-form .ALP-form-group {
+  margin-bottom: 1.2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.ALP-form-group label {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #374151;
+}
+
+.ALP-form-group select,
+.ALP-form-group input,
+.ALP-form-group textarea {
+  padding: 0.625rem 0.75rem;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 1rem;
+  background-color: #f9fafb;
+  transition: border-color 0.2s, background-color 0.2s;
+  
+}
+.ALP-form-group textarea {
+  height: 60px;
+  resize: none;
+  overflow-y: auto;
+}
+
+.ALP-form-group select:focus,
+.ALP-form-group input:focus,
+.ALP-form-group textarea:focus {
+  border-color: #2563eb;
+  background-color: #ffffff;
+  outline: none;
+}
+
+.ALP-required {
+  color: #dc2626;
+}
+
+/* Date Inputs Row */
+.ALP-form-row {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.ALP-form-row .ALP-form-group {
+  flex: 1;
+  min-width: 45%;
+}
+
+/* Info Box */
+.ALP-info-box {
+  background-color: #eef2ff;
+  padding: 0.75rem 1rem;
+  border-left: 4px solid #6366f1;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+  color: #1e3a8a;
+  font-size: 0.95rem;
+}
+
+/* Form Actions */
+.ALP-form-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+/* Primary Button */
+.ALP-btn-primary {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.5rem;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.ALP-btn-primary:hover:not(:disabled) {
+  background-color: #1d4ed8;
+}
+
+.ALP-btn-primary:disabled {
+  background-color: #93c5fd;
+  cursor: not-allowed;
+}
+
+/* Outline Button */
+.ALP-btn-outline {
+  background-color: white;
+  color: #374151;
+  border: 1px solid #d1d5db;
+  padding: 0.6rem 1.5rem;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.ALP-btn-outline:hover {
+  background-color: #f3f4f6;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .ALP-form-row {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .ALP-form-row .ALP-form-group {
+    width: 100%;
+    min-width: unset;
+    margin-bottom: 1rem;
+  }
+
+  .ALP-form-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .ALP-btn-outline,
+  .ALP-btn-primary {
+    width: 100%;
+  }
+}
+@media  (max-width:426px) {
+  .ALP-apply-leave-container{
+    max-width: 390px;
+  }
+  .ALP-form-group textarea {
+ max-width: 360px;
+}
+}
+
+.ALP-leave-select option{
+  max-width: 100px;
+}

@@ -1,0 +1,167 @@
+.LHP-leave-history-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 1rem;
+
+}
+
+header h1 {
+  font-size: 2rem;
+  margin-bottom: 0.25rem;
+}
+
+header p {
+  color: #555;
+  margin-bottom: 1.5rem;
+}
+
+.LHP-card {
+  background: #fff;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.LHP-card h2 {
+  margin-bottom: 0.25rem;
+}
+
+.LHP-card p {
+  color: #666;
+  margin-bottom: 1rem;
+}
+
+.LHP-table-container {
+  overflow-x: auto;
+}
+
+.LHP-table-container table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+
+.LHP-table-container thead {
+  background-color: #f1f1f1;
+}
+
+.LHP-table-container th,.LHP-table-container td {
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+.LHP-view-button {
+  background-color: #007bff;
+  border: none;
+  color: white;
+  padding: 0.4rem 0.75rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.LHP-view-button:hover {
+  background-color: #0056b3;
+}
+
+/* Status Badges */
+.LHP-badge {
+  padding: 0.3rem 0.6rem;
+  border-radius: 12px;
+  font-size: 0.8rem;
+  color: white;
+  display: inline-block;
+}
+
+.badge-approved {
+  background-color: green;
+}
+
+.badge-rejected {
+  background-color: red;
+}
+
+.badge-pending {
+  background-color: orange;
+  color: #fff;
+}
+
+.badge-default {
+  background-color: gray;
+}
+
+/* Modal Styles */
+.LHP-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.LHP-modal-content {
+  background: #fff;
+  padding: 1.5rem;
+  width: 90%;
+  max-width: 500px;
+  border-radius: 8px;
+}
+
+.LHP-modal-content h3 {
+  margin-bottom: 1rem;
+}
+
+.LHP-modal-content p {
+  margin-bottom: 0.5rem;
+}
+
+.LHP-close-button {
+  margin-top: 1rem;
+  background-color: #444;
+  color: white;
+  padding: 0.4rem 0.8rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.LHP-close-button:hover {
+  background-color: #222;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .LHP-table-container th,.LHP-table-container td{
+    font-size: 0.85rem;
+    padding: 0.5rem;
+  }
+
+  .LHP-modal-content {
+    padding: 1rem;
+  }
+}
+@media  (max-width:426px) {
+  .LHP-card{
+    max-width: 360px;
+  }
+    
+}
+@media  (max-width:376px) {
+   .LHP-card{
+    max-width: 310px;
+  }
+   
+  
+}
+@media  (max-width:321px) {
+    .LHP-card{
+    max-width: 250px;
+  }
+   
+ 
+}

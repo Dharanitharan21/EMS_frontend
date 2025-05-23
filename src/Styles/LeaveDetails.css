@@ -1,0 +1,180 @@
+.LDP-leavedetails-container{
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+.LDP-header {
+  margin-bottom: 2rem;
+}
+.LDP-back-link {
+  display: flex;
+  align-items: center;
+  color: #007bff;
+  margin-bottom: 0.5rem;
+  text-decoration: none;
+}
+.LDP-back-link:hover {
+  text-decoration: underline;
+}
+.LDP-header h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.LDP-status {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+  font-size: 18px;
+}
+.LDP-badge {
+  margin-left: 0.5rem;
+  padding: 0.2rem 0.6rem;
+  border-radius: 12px;
+  font-size: 0.8rem;
+  text-transform: capitalize;
+}
+.LDP-badge.approved {
+  background: #d1fae5;
+  color: #065f46;
+}
+.LDP-badge.rejected {
+  background: #fee2e2;
+  color: #991b1b;
+}
+.LDP-badge.pending {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+.LDP-details-grid {
+  display: grid;
+
+}
+@media (min-width: 768px) {
+  .LDP-details-grid {
+    grid-template-columns: 2fr 1fr;
+  }
+}
+
+.LDP-card {
+  border: 1px solid #ddd;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  background: white;
+}
+.LDP-card-header {
+  padding: 1rem;
+  border-bottom: 1px solid #eee;
+}
+.LDP-card-header h2 {
+  margin: 0;
+}
+
+.LDP-card-content .LDP-row {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin-top: 20px;
+
+}
+.LDP-card-content{
+  padding: 30px;
+}
+.LDP-card-content label {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #6b7280;
+}
+.LDP-card-content p {
+  margin-top: 0.25rem;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+.LDP-card-footer {
+  padding: 1rem;
+  border-top: 1px solid #eee;
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
+.LDP-btn {
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  border: none;
+  cursor: pointer;
+}
+.LDP-btn.approve {
+  background-color: #16a34a;
+  color: white;
+}
+.LDP-btn.reject {
+  background-color: #dc2626;
+  color: white;
+}
+
+.LDP-modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.LDP-modal-content {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 400px;
+}
+.LDP-modal-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.LDP-modal-content textarea {
+  width: 100%;
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.LDP-doc-link {
+  color: #007bff;
+  cursor: pointer;
+   list-style-type: none
+}
+.LDP-doc-link:hover {
+  text-decoration: underline;
+}
+
+.LDP-not-found {
+  text-align: center;
+  padding: 3rem;
+}
+.LDP-not-found h2 {
+  font-size: 1.5rem;
+}
+.LDP-not-found a {
+  color: #007bff;
+  display: inline-block;
+  margin-top: 1rem;
+}
+.LDP-info-section{
+    margin-top: 20px;
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+}
+.LDP-info-row label{
+    font-size: 12px;
+    font-weight: 200;
+    
+}

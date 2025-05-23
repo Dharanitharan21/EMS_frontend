@@ -1,0 +1,42 @@
+.DM-department-container {
+  padding: 1rem;
+
+  margin: auto;
+}
+
+.DM-department-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.DM-table-wrapper {
+  overflow: auto;
+  margin-top: 1.5rem;
+}
+
+.DM-department-table {
+  width: 100%;
+}
+@media  (max-width:426px) {
+  .DM-table-content{
+    max-width: 360px;
+  }
+    .DM-department-header{
+      flex-wrap: wrap;
+    }
+}
+@media  (max-width:376px) {
+  .DM-table-content{
+    max-width: 300px;
+  }
+  
+}
+@media  (max-width:321px) {
+  .DM-table-content{
+    max-width: 250px;
+  }
+ 
+}

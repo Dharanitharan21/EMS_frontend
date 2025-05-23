@@ -1,0 +1,364 @@
+
+.EDP-dashboard-header {
+  margin-bottom: 2rem;
+}
+
+.EDP-dashboard-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1f2937;
+}
+
+.EDP-dashboard-subtitle {
+  color: #6b7280;
+}
+
+.EDP-dashboard-stats {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.EDP-stat-card {
+  background-color: white;
+  border-radius: 5px;
+
+}
+
+.EDP-stat-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.EDP-stat-icon {
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  color: white;
+}
+
+.EDP-stat-value {
+  font-size: 1.875rem;
+  font-weight: 700;
+}
+
+.EDP-dashboard-content {
+  display: grid;
+  gap: 1rem;
+  margin-top: 2rem;
+  grid-template-columns: 2fr 1fr;
+}
+
+.EDP-leave-history-card,
+.EDP-quick-actions-card {
+  background-color: white;
+}
+
+.EDP-leave-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.EDP-leave-item {
+  border: 1px solid #e5e7eb;
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+
+.EDP-leave-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.EDP-leave-date {
+  font-size: 0.875rem;
+  color: #6b7280;
+}
+
+.EDP-leave-status {
+  padding: 0.25rem 0.5rem;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.EDP-leave-status.approved {
+  background-color: #d1fae5;
+  color: #065f46;
+}
+
+.EDP-leave-status.rejected {
+  background-color: #fee2e2;
+  color: #991b1b;
+}
+
+.EDP-leave-status.pending {
+  background-color: #fef3c7;
+  color: #92400e;
+}
+
+.EDP-leave-reason {
+  margin-top: 0.5rem;
+  font-size: 0.875rem;
+}
+
+.EDP-leave-comment {
+  margin-top: 0.5rem;
+  background-color: #f9fafb;
+  padding: 0.5rem;
+  border-radius: 0.375rem;
+  font-size: 0.875rem;
+}
+
+.EDP-leave-status-indicator {
+  margin-top: 0.75rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.875rem;
+}
+
+.EDP-icon {
+  height: 1rem;
+  width: 1rem;
+  margin-right: 0.25rem;
+}
+
+.EDP-text-green {
+  color: #10b981;
+}
+
+.EDP-text-red {
+  color: #ef4444;
+}
+
+.EDP-text-yellow {
+  color: #f59e0b;
+}
+
+.EDP-view-all {
+  margin-top: 1.5rem;
+  text-align: center;
+}
+
+.EDP-quick-actions .btn {
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+.EDP-employee-dashboard {
+  padding: 1rem;
+  color: #1f2937;
+}
+
+.EDP-dashboard-header {
+  margin-bottom: 2rem;
+}
+
+.EDP-dashboard-title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.EDP-dashboard-subtitle {
+  font-size: 1rem;
+  color: #6b7280;
+}
+
+.EDP-dashboard-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+
+.EDP-card-header {
+  padding: 1rem;
+
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.EDP-card-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.EDP-card-description {
+  font-size: 0.9rem;
+  color: #6b7280;
+}
+
+.EDP-card-content {
+  padding: 1rem;
+}
+.quick-actions{
+  display: grid;
+  gap: 5px;
+}
+
+.EDP-stat-icon {
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bg-blue-500 {
+  background-color: #3b82f6;
+}
+
+.bg-purple-500 {
+  background-color: #8b5cf6;
+}
+
+.bg-green-500 {
+  background-color: #10b981;
+}
+
+.bg-yellow-500 {
+  background-color: #f59e0b;
+}
+
+.EDP-stat-value {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.EDP-leave-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.EDP-leave-item {
+  border: 1px solid #e5e7eb;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background-color: #ffffff;
+}
+
+.EDP-leave-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.EDP-leave-date {
+  font-size: 0.9rem;
+  color: #6b7280;
+}
+
+.EDP-leave-status {
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.EDP-leave-status.approved {
+  color: #10b981;
+}
+
+.EDP-leave-status.rejected {
+  color: #ef4444;
+}
+
+.EDP-leave-status.pending {
+  color: #f59e0b;
+}
+
+.EDP-leave-reason {
+  margin-top: 0.5rem;
+  font-size: 0.95rem;
+}
+
+.EDP-leave-comment {
+  font-size: 0.85rem;
+  color: #4b5563;
+  margin-top: 0.25rem;
+}
+
+.EDP-leave-status-indicator {
+  margin-top: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.EDP-icon {
+  width: 1rem;
+  height: 1rem;
+  margin-right: 0.25rem;
+}
+
+.EDP-text-green {
+  color: #10b981;
+}
+
+.EDP-text-red {
+  color: #ef4444;
+}
+
+.EDP-text-yellow {
+  color: #f59e0b;
+}
+
+.EDP-view-all {
+  margin-top: 1rem;
+  text-align: right;
+}
+
+.EDP-btn, .EDP-btn-outline {
+  display: inline-flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding: 0.6rem 1rem;
+  font-size: 0.95rem;
+  font-weight: 500;
+  border-radius: 0.375rem;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background 0.2s ease-in-out;
+}
+
+.EDP-btn {
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+}
+
+.EDP-btn:hover {
+  background-color: #2563eb;
+}
+
+.EDP-btn-outline {
+  background-color: white;
+  border: 1px solid #d1d5db;
+  color: #374151;
+}
+
+.EDP-btn-outline:hover {
+  background-color: #f3f4f6;
+}
+
+.EDP-w-full {
+  width: 100%;
+}
+
+.EDP-quick-actions > *:not(:last-child) {
+  margin-bottom: 0.75rem;
+}
+@media  (max-width:426px) {
+  .EDP-dashboard-content{
+    grid-template-columns: 1fr;
+  }
+  .EDP-leave-history-card{
+    order: 2;
+  }  
+}
+

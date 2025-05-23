@@ -1,0 +1,42 @@
+.LTP-leave-type-container {
+  padding: 1rem;
+}
+
+.LTP-leave-type-header {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.LTP-table-wrapper {
+  margin-top: 1rem;
+}
+
+.LTP-leave-type-table th,
+.LTP-leave-type-table td {
+  text-align: left;
+}
+
+@media  (max-width:426px) {
+  .LTP-leave-type-header{
+    flex-wrap: wrap;
+  }
+  .LTP-table-content{
+    max-width: 360px;
+  }
+    
+}
+@media  (max-width:376px) {
+  .LTP-table-content{
+    max-width: 310px;
+  }
+  
+}
+@media  (max-width:321px) {
+  .LTP-table-content{
+    max-width: 250px;
+  }
+ 
+}

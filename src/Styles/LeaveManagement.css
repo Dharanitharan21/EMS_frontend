@@ -1,0 +1,168 @@
+/* Header */
+.LMP-leave-header {
+ border-bottom: none;
+ padding: 5px;
+}
+.LMP-container{
+  padding: 1rem;
+}
+.LMP-leave-header h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #1a1a1a;
+  margin: 0;
+}
+
+.LMP-leave-header p {
+  color: #6b7280;
+  margin-top: 0.25rem;
+}
+
+/* Card */
+.LMP-card {
+    margin: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.LMP-card-content {
+  padding: 1.5rem;
+}
+
+/* Tabs */
+.LMP-tabs-list {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.LMP-tab-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  background: #f9fafb;
+  border: 1px solid #d1d5db;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #111827;
+  text-align: center;
+  flex: 1;
+}
+
+.LMP-tab-button:hover {
+  background-color: #e5e7eb;
+}
+
+.LMP-tab-button.active {
+ 
+  background-color: #3b82f6;
+  color: white;
+  border-color: #3b82f6;
+}
+
+/* Table */
+.LMP-table-container {
+  overflow-x: auto;
+}
+
+.LMP-leave-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.LMP-leave-table th,
+.LMP-leave-table td {
+  padding: 12px 16px;
+  text-align: left;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.LMP-leave-table th {
+  background-color: #f3f4f6;
+  font-weight: 600;
+}
+
+.LMP-emp-info .LMP-emp-code {
+  font-size: 0.75rem;
+  color: #6b7280;
+}
+
+.LMP-duration small {
+  display: block;
+  font-size: 0.75rem;
+  color: #6b7280;
+  margin-top: 4px;
+}
+
+.LMP-lm-status {
+  padding: 4px 8px;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.LMP-lm-status.approved {
+  background-color: #d1fae5;
+  color: #065f46;
+}
+
+.LMP-lm-status.pending {
+  background-color: #fef3c7;
+  color: #92400e;
+}
+
+.LMP-lm-status.rejected {
+  background-color: #fee2e2;
+  color: #991b1b;
+}
+
+.LMP-view-link {
+  color: #3b82f6;
+  text-decoration: none;
+  font-size: 0.875rem;
+}
+
+.LMP-view-link:hover {
+  text-decoration: underline;
+}
+
+.LMP-no-records {
+  text-align: center;
+  padding: 2rem;
+  color: #6b7280;
+}
+.LMP-tabs-list{
+  overflow: auto;
+}
+
+@media  (max-width:426px) {
+  .LMP-card-content{
+    padding: 1rem;
+  }
+  .LMP-container{
+    padding: 0.5rem;
+  }
+  .LMP-card-content{
+    max-width: 340px;
+  }
+    
+}
+@media  (max-width:376px) {
+  .LMP-card-content{
+    max-width: 285px;
+  }
+  
+}
+@media  (max-width:321px) {
+  .LMP-container{
+    padding: 0.2rem;
+  }
+  .LMP-card-content{
+    max-width: 240px;
+  }
+ 
+}

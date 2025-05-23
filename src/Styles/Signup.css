@@ -1,0 +1,91 @@
+
+.signup-page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #dfe9f3 0%, #ffffff 100%);
+  padding: 20px;
+}
+
+.signup-container {
+  width: 100%;
+  max-width: 420px;
+  background: #ffffff;
+  padding: 2.5rem 2rem;
+  border-radius: 12px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease-in-out;
+}
+
+.signup-box {
+  width: 100%;
+}
+
+.signup-box h5 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #1f2937;
+  margin-bottom: 1.5rem;
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.textfeild {
+  margin-bottom: 1rem;
+}
+
+.textfeild input {
+  background-color: #f9fafb;
+}
+
+.signup-button {
+  margin-top: 1.5rem;
+  padding: 0.75rem;
+  background-color: #1976d2;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 1rem;
+  letter-spacing: 0.5px;
+  border-radius: 8px;
+  text-transform: none;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.signup-button:hover {
+  background-color: #115293;
+  box-shadow: 0 4px 12px rgba(17, 82, 147, 0.3);
+}
+
+.MuiInputBase-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: #1976d2 !important;
+}
+
+.MuiFormHelperText-root {
+  font-size: 0.85rem;
+  margin-top: 0.25rem;
+}
+
+@media (max-width: 600px) {
+  .signup-container {
+    padding: 2rem 1.25rem;
+    box-shadow: none;
+    background: transparent;
+  }
+
+  .signup-page {
+    background: #f3f4f6;
+  }
+
+  .signup-box h5 {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+
+  .signup-button {
+    font-size: 0.95rem;
+  }
+}

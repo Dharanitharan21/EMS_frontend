@@ -1,0 +1,280 @@
+.PP-profile-container {
+  margin: 0 auto;
+  padding: 2rem;
+
+}
+
+.PP-profile-header h1 {
+  font-size: 2rem;
+  margin-bottom: 0.3rem;
+}
+
+.PP-profile-header p {
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+.PP-profile-grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 2rem;
+}
+
+.PP-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.PP-profile-summary h2 {
+  margin-bottom: 1rem;
+  /* General container */
+}
+
+.PP-profile-container {
+  padding: 1rem;
+  margin: 0 auto;
+
+}
+
+/* Header */
+.PP-profile-header {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.PP-profile-header h1 {
+  font-size: 2rem;
+  color: #111;
+  margin-bottom: 0.25rem;
+}
+
+.PP-profile-header p {
+  color: #666;
+  font-size: 1rem;
+}
+
+/* Grid layout */
+.PP-profile-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .PP-profile-grid {
+    grid-template-columns: 1fr 2fr;
+  }
+}
+
+/* Cards */
+.PP-card {
+  background-color: #fff;
+  border-radius: 0.75rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  padding: 1.5rem;
+}
+
+/* Summary section */
+.PP-profile-summary h2 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.PP-profile-name {
+  margin-bottom: 1rem;
+}
+
+.PP-profile-name strong {
+  font-size: 1.1rem;
+  display: block;
+}
+
+.PP-text-muted {
+  color: #888;
+  font-size: 0.9rem;
+}
+
+.PP-profile-details p {
+  margin: 0.5rem 0;
+}
+
+.PP-profile-details span {
+  font-weight: 600;
+  color: #555;
+}
+
+/* Form section */
+.PP-profile-form h2 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.PP-profile-form form {
+  width: 100%;
+}
+
+.PP-form-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+@media (min-width: 600px) {
+  .PP-form-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.PP-form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.PP-form-group label {
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  color: #444;
+}
+
+.PP-form-group input,
+.PP-form-group select {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 0.375rem;
+  font-size: 1rem;
+}
+
+.full-width {
+  grid-column: span 2;
+}
+
+@media (max-width: 599px) {
+  .full-width {
+    grid-column: span 1;
+  }
+}
+
+.PP-form-actions {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.PP-form-actions button {
+  background-color: #2563eb;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 0.375rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.PP-form-actions button:disabled {
+  background-color: #94a3b8;
+  cursor: not-allowed;
+}
+
+.PP-form-actions button:hover:not(:disabled) {
+  background-color: #1d4ed8;
+}
+
+
+
+.PP-profile-name {
+  margin-bottom: 1rem;
+}
+
+.PP-profile-name strong {
+  font-size: 1.2rem;
+}
+
+.text-muted {
+  color: #888;
+}
+
+.PP-profile-details p {
+  margin: 0.5rem 0;
+}
+
+.PP-profile-details span {
+  font-weight: bold;
+  margin-right: 0.5rem;
+}
+
+.PP-profile-PP-form h2 {
+  margin-bottom: 1rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.PP-form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.PP-form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.full-width {
+  grid-column: span 2;
+  margin-top: 1rem;
+}
+
+.PP-form-group label {
+  margin-bottom: 0.3rem;
+  font-weight: bold;
+}
+
+.PP-form-group input,
+.PP-form-group select {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.PP-form-actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1.5rem;
+}
+
+.PP-form-actions button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.PP-form-actions button:disabled {
+  background-color: #888;
+  cursor: not-allowed;
+}
+/* 📱 Mobile Responsive */
+@media (max-width: 768px) {
+  .PP-form-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .PP-form-group.full-width {
+    grid-column: span 1;
+  }
+
+  .PP-card {
+    padding: 1.25rem;
+  }
+}

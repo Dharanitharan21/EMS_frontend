@@ -1,0 +1,213 @@
+.EMP-employee-management {
+  padding: 20px;
+
+}
+
+.EMP-header h1 {
+  font-size: 28px;
+  margin-bottom: 5px;
+}
+
+.EMP-header p {
+  color: #666;
+}
+
+.EMP-card {
+  background: #fff;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.EMP-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.EMP-card-header h2 {
+  margin: 0;
+}
+
+.EMP-btn-primary {
+  background-color: #2563eb;
+  color: #fff;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  text-decoration: none;
+}
+.EMP-btn-primary-link{
+  text-decoration: none;
+}
+.EMP-table-container {
+  overflow-x: auto;
+}
+
+.EMP-employee-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.EMP-employee-table th,
+.EMP-employee-table td {
+  padding: 12px;
+  border-bottom: 1px solid #e5e7eb;
+  text-align: left;
+}
+
+.EMP-status {
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.EMP-status.active {
+  background-color: #dcfce7;
+  color: #15803d;
+}
+
+.EMP-status.inactive {
+  background-color: #fee2e2;
+  color: #b91c1c;
+}
+.EMP-action-buttons{
+  display: flex;
+}
+.EMP-action-buttons button {
+  margin-right: 6px;
+  padding: 6px;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.EMP-btn-delete {
+   
+  color: #dc2626;
+}
+
+.EMP-btn-activate {
+  color: #16a34a;
+}
+
+.EMP-btn-deactivate {
+  color: #dc2626;
+}
+.EMP-employee-details p {
+  margin: 8px 0;
+  font-size: 14px;
+}
+
+.dialog {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dialog-content {
+  background-color: #fff;
+  padding: 24px;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 600px;
+}
+
+.dialog-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+  margin-top: 20px;
+}
+.EMP-btn-view{
+  color: black;
+}
+
+
+.EMP-btn-delete {
+  background: #dc2626;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+}
+.EMP-pagination {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.EMP-pagination button {
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  background: white;
+  cursor: pointer;
+  color: black;
+
+}
+
+.EMP-pagination button.active {
+  background: #007bff;
+  color: white;
+  border-color: #007bff;
+}
+.EMP-employee-details {
+  padding: 10px 5px;
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* 2-column layout */
+  gap: 16px;
+  font-size: 14px;
+  color: #333;
+}
+
+.EMP-employee-details p {
+  margin: 0;
+  background-color: #f9f9f9;
+  padding: 10px 12px;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.EMP-employee-details strong {
+  display: block;
+  font-size: 13px;
+  color: #555;
+  margin-bottom: 4px;
+  font-weight: 600;
+}
+
+@media  (max-width:769px) {
+  .EMP-card{
+    max-width: 695px;
+  }
+    
+}
+@media  (max-width:426px) {
+  .EMP-card{
+    max-width: 360px;
+  }
+    
+}
+@media  (max-width:376px) {
+  .EMP-card{
+    max-width: 300px;
+  }
+  
+}
+@media  (max-width:321px) {
+  .EMP-card{
+    max-width: 250px;
+  }
+}
