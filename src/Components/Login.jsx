@@ -12,7 +12,7 @@ import { useState } from 'react';
 import Visibility from '@mui/icons-material/Visibility';
 import VisibilityOff from '@mui/icons-material/VisibilityOff';
 import { Link, useNavigate } from 'react-router-dom';
-import '../Styles/login.css';
+import '../Styles/Login.css';
 import Swal from 'sweetalert2'
 function Login() {
   const [userInput, setUserInput] = useState({
